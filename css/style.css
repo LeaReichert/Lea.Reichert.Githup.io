@@ -2,34 +2,40 @@
   position: relative;
   margin: 0px auto;
   width: 900px;
-  height: 1000px;
-  border-style: dotted;
-  border-width: 5px;
+  height: 890px;
   background-color: #fff7e3;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-}
+  margin-bottom: 40px;
+  }
+.border  {
+  position: absolute;
+  width: 890px;
+  height: 880px;
+  border-style: dotted;
+  border-width: 5px;
+  z-index:2;
+  }
 .header {
   position: absolute;
   width: 900px;
   height: 50px;
   background-color: #505050;
+  z-index:3;
   }
-
 .nav  {
   float: right;
   color: white;
   list-style: none;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
-  margin-top: 2px;
+  margin-top: 10px;
   margin-right: 45px;
-}
+  }
 .nav a {
   text-decoration: none;
   color: white;
-}
-
+  }
 .name {
   float: left;
   color: white;
@@ -42,27 +48,23 @@
 .name a {
   text-decoration: none;
   color: white;
-}
-
-
-
-
+  }
 .content1 {
   position: absolute;
   top: 50px;
   width: 900px;
   height: 750px;
   background-color: #fff7e3;
-}
+  }
 .img1 {
   position: absolute;
   left: 305px;
   top: 100px;
 
-}
+  }
 .content2 {
   position: relative;
   top: 600px;
   width: 900px;
-  height: 800px;
   font-size: 0,5em;
+  }
