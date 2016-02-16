@@ -1,13 +1,17 @@
+body { margin:0; padding:0; top:0px; width:100%; color:black; font-size: 15px; font-family: 'Amatic SC', cursive;}
+div { border:0px; }
+a { text-decoration: none; }
+a img { border:none; }
 .all {
   position: relative;
-  margin: 0px auto;
+  margin: 20px auto;
   width: 900px;
   height: 890px;
-  background-color: #fff7e3;
   text-align: center;
-  font-family: 'Amatic SC', cursive;
   margin-bottom: 40px;
+  background-color: #fff2f4;
   }
+#all_zeuch { height: 1800px; } #all_ueber { height: 800px; } #all_kontakt { height: 800px; } #all_impressum { height: 1100px; }
 .border  {
   position: absolute;
   width: 890px;
@@ -15,11 +19,13 @@
   border-style: dotted;
   border-width: 5px;
   z-index:2;
+  border-color: #505050;
   }
+#border_zeuch { height: 1790px; } #border_ueber { height: 790px; } #border_kontakt { height: 790px; } #border_impressum { height: 1090px; }
 .header {
   position: absolute;
   width: 900px;
-  height: 50px;
+  height: 60px;
   background-color: #505050;
   z-index:3;
   }
@@ -27,21 +33,16 @@
   float: right;
   color: white;
   list-style: none;
-  font-family: 'Amatic SC', cursive;
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 25px;
+  margin-top: 15px;
   margin-right: 45px;
   }
-.nav a {
-  text-decoration: none;
-  color: white;
-  }
+.nav a:link { color:#ffffff; }  .nav a:visited { color:#ffffff; } .nav a:active { color:#ffffff; } .nav a:hover { color:#ffc6d0; }
 .name {
   float: left;
   color: white;
   list-style: none;
-  font-family: 'Amatic SC', cursive;
-  font-size: 35px;
+  font-size: 42px;
   margin-top: 4px;
   margin-left: 14px;
   }
@@ -49,27 +50,70 @@
   text-decoration: none;
   color: white;
   }
-.content1 {
+.content1 { 
   position: absolute;
   top: 50px;
-  width: 900px;
-  height: 750px;
-  background-color: #fff7e3;
+  left: 30px;
+  width: 840px;
   }
+#content1_kontakt { margin-top: 150px; font-size: 20px; } #content1_ueber {  margin-top: 190px; font-size: 23px; line-height: 1.8;} #content1_impressum { margin-top: 70px; font-size: 17px; }
 .img1 {
-  position: absolute;
-  left: 305px;
-  top: 100px;
-
+  position: relative;
+  margin: 110px auto;
   }
 .content2 {
   position: relative;
   top: 600px;
   width: 900px;
-  font-size: 0,5em;
+  font-size: 15px;
   }
-  .1 {
-  position: relative;
-margin-left: 30px;
-margin-top: 100px;
+.zeuch_img {
+    position: absolute;
+    border: 7px solid white;
+    box-shadow: 0px 0px 2px #b9b9b9;
+    z-index: 5;
+}
+#zeuch_img1 {
+  top: 60px;
+  left: 180px;
   }
+#zeuch_img2 {
+    top: 1100px;
+    left: 460px;
+}
+#zeuch_img3 {
+    top: 90px;
+    left: 490px;
+}
+#zeuch_img4 {
+    top: 360px;
+    left: 140px;
+}
+#zeuch_img5 {
+    top: 870px;
+    left: 220px;
+}
+#zeuch_img6 {
+    top: 750px;
+    left: 450px;
+}
+#zeuch_img7 {
+    top: 500px;
+    left: 400px;
+}
+#zeuch_img8 {
+    top: 330px;
+    left: 570px;
+}
+#zeuch_img9 {
+    top: 1250px;
+    left: 180px;
+}
+.impressum {
+    position: absolute;
+    bottom: 13px;
+    right: 20px;
+    height: 20px;
+    z-index:3;
+}
+.impressum a:link { color:black; }  .impressum a:visited { color:black; } .impressum a:active { color:black; } .impressum a:hover { color:#e5acb6; }
